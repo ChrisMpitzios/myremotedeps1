@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>holdmy</groupId>
+    <artifactId>holdmy</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <repositories>
+        <repository>
+            <id>lib</id>
+            <url>${project.basedir}/lib</url>
+        </repository>
+
+
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>ebaycalls</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/ebaycalls.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>ebaysdkcore</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/ebaysdkcore.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>helper</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/helper.jar</systemPath>
+    </dependency>
+
+    <!-- New -->
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>activation</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/activation.jar</systemPath>
+    </dependency>
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>FastInfoset</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/FastInfoset.jar</systemPath>
+    </dependency>
+
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>http</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/http.jar</systemPath>
+    </dependency>
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jakarta-oro-2.0.8</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jakarta-oro-2.0.8.jar</systemPath>
+    </dependency>
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jaxb-api</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jaxb-api.jar</systemPath>
+    </dependency>
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jaxb-impl</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jaxb-impl.jar</systemPath>
+    </dependency>
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jaxb-xjc</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jaxb-xjc.jar</systemPath>
+    </dependency>
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jaxws-api</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jaxws-api.jar</systemPath>
+    </dependency>
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jaxws-rt</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jaxws-rt.jar</systemPath>
+    </dependency>
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jaxws-tools</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jaxws-tools.jar</systemPath>
+    </dependency>
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jsr173_api</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jsr173_api.jar</systemPath>
+    </dependency>
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jsr181_api</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jsr181-api.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jsr250_api</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jsr250-api.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>log4j-1.2.16</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/log4j-1.2.16.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>mimepull</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/mimepull.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>resolver</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/resolver.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>saaj-api</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/saaj-api.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>saaj-impl</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/saaj-impl.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>serializer</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/serializer.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>sjsxp</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/sjsxp.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>slf4j-api-1.6.1</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/slf4j-api-1.6.1.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>slf4j-log4j12-1.6.1</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/slf4j-log4j12-1.6.1.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>stax-ex</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/stax-ex.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>streambuffer</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/streambuffer.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>xalan</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/xalan.jar</systemPath>
+    </dependency>
+
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>finding</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/finding.jar</systemPath>
+    </dependency>
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jaxp-api</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jaxp-api.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>jaxp-ri</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/jaxp-ri.jar</systemPath>
+    </dependency>
+
+
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>ebaycalls-src</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/ebaycalls-src.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>ebaysdkcore-src</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/ebaysdkcore-src.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.ebay</groupId>
+        <artifactId>helper-src</artifactId>
+        <version>1</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/helper-src.jar</systemPath>
+    </dependency>
+    </dependencies>
+
+</project>
